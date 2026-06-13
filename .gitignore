@@ -1,0 +1,30 @@
+# ── Python ──────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+
+# ── Environment / secrets ────────────────────────────────────────────────────
+.env
+# .env.example is intentionally kept (no real secrets in it)
+
+# ── Database ─────────────────────────────────────────────────────────────────
+chat.db
+*.db
+*.sqlite
+*.sqlite3
+
+# ── Test / scratch files ──────────────────────────────────────────────────────
+test_*.py
+test_memory.py
+
+# ── OS / editor ──────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
